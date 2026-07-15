@@ -1,0 +1,46 @@
+{
+  "source": "FabNinjas_BrandGuidelines.pdf (page 3, 'Colours That Help Us Stand Out')",
+  "note": "Hex values are authoritative (taken verbatim from the guidelines). Roles are derived from swatch prominence and observed usage in the source document, not an explicit spec.",
+  "tokens": [
+    {
+      "name": "ink",
+      "hex": "#282643",
+      "rgb": [40, 38, 67],
+      "role": "primary",
+      "usage": "Dominant colour (largest swatch). Logo, headings, body text, dark backgrounds.",
+      "contrast_on_white": 14.5
+    },
+    {
+      "name": "orange",
+      "hex": "#e99d75",
+      "rgb": [233, 157, 117],
+      "role": "accent",
+      "usage": "The stand-out accent (enthusiasm). Fills, highlights, CTAs. Not for text on white.",
+      "contrast_on_white": 2.2
+    },
+    {
+      "name": "purple",
+      "hex": "#776482",
+      "rgb": [119, 100, 130],
+      "role": "secondary",
+      "usage": "Secondary accent: dividers, underlines, button fills (with white text).",
+      "contrast_on_white": 5.34
+    },
+    {
+      "name": "mauve",
+      "hex": "#baa9b8",
+      "rgb": [186, 169, 184],
+      "role": "supporting",
+      "usage": "Soft supporting tint: section backgrounds, borders, muted UI.",
+      "contrast_on_white": 2.22
+    },
+    {
+      "name": "cream",
+      "hex": "#f2e1ca",
+      "rgb": [242, 225, 202],
+      "role": "neutral",
+      "usage": "Warm neutral (smallest swatch): page/background wash, cards. Pair with ink text.",
+      "contrast_on_white": 1.28
+    }
+  ]
+}

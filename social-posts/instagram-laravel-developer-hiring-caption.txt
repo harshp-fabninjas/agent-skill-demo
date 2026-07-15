@@ -1,0 +1,20 @@
+We're hiring a Laravel Developer (5+ years) 🥷
+
+At FabNinjas, we take on the projects other teams pass on — the messy, "complicated" problems that need someone who actually knows their way around Laravel, not just a tutorial's worth. If that's you, we want to talk.
+
+What you'll bring:
+→ 5+ years building production apps in Laravel & PHP
+→ Real comfort with Eloquent ORM, queues/jobs, and REST APIs
+→ MySQL know-how and an instinct for clean, scalable code
+→ Ownership — you don't wait to be told, you dig in and solve it
+
+What you'll get:
+→ Hard problems worth solving, for clients who bring us the tricky stuff
+→ A team that values creativity and craft over busywork
+→ Real ownership on projects from day one
+
+We turn tricky ideas into scalable web products — and we're looking for a ninja who wants to build them with us.
+
+Ready to join the dojo? Send us your resume — link in bio, or drop a comment and we'll get you the details.
+
+#Laravel #PHP #LaravelDeveloper #WeAreHiring #HiringNow #TechJobs #CareerOpportunity #WebDevelopment #SoftwareEngineer #EloquentORM #BackendDeveloper #FabNinjas
