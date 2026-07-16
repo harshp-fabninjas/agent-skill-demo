@@ -67,8 +67,7 @@ That's why *"Make a LinkedIn post about our launch"* is enough to wake up `post-
 
 ## See the output
 The `social-posts/` folder already has real examples made this exact way — an image and a caption for each:
-- `linkedin-agencyos-launch.png` + `linkedin-agencyos-launch.txt`
-- `instagram-laravel-mvp.png` + `instagram-laravel-mvp-caption.txt`
+- `instagram-laravel-developer-hiring` + `instagram-laravel-developer-hiring-caption.txt`
 
 ## The folders
 ```
