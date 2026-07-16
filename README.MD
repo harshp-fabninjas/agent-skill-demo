@@ -20,6 +20,10 @@ The FabNinjas brand rulebook, taken straight from the brand guidelines. It tells
 - How to use the logo
 - How the brand should sound
 
+**🛠️ Try it — build your own skill**
+
+It can be anything like a `writing-style` skill with your tone-of-voice rules.
+
 ### The agent: `post-ninja`
 📁 `.claude/agents/post-ninja.md`
 
@@ -30,14 +34,36 @@ A worker that turns a topic into a ready-to-post social media post. Give it some
 - Do it for Instagram, LinkedIn, and X
 - Drop everything into the `social-posts/` folder, ready to upload
 
+**🛠️ Try it — build your own agent**
+
+It can be anything like a `ppt-ninja` that builds ppt slides.
+
 ## How a run actually goes
 
-1. You ask: *"Make a LinkedIn post about our AgencyOS launch."*
+1. You ask: *"Make a LinkedIn post about our project AgencyOS launch."*
 2. Claude sees that fits `post-ninja` and hands it the task.
 3. `post-ninja` opens the `fabninjas-brand-design` skill to grab the brand rules.
 4. It writes the caption, builds the image, and saves both into `social-posts/`.
 
 That's it — nothing to set up. Everything lives in the `.claude/` folder, so any teammate who opens this project in Claude Code can just ask for a post.
+
+## How do skills and agents get triggered?
+
+You never have to "turn them on." There are just two ways Claude reaches for one:
+
+**1. You name it directly.**
+Say it out loud and Claude uses it:
+> "Use the **fabninjas-brand-design** skill and check these colors."
+> "Run **post-ninja** for our AgencyOS launch."
+
+Simple and certain — good when you want a specific one.
+
+**2. Claude matches your request to the description (the usual way).**
+Every skill and every agent has a short `description:` at the top that says *when* to use it. When your request sounds like that description, Claude picks it automatically — you don't have to know its name.
+
+That's why *"Make a LinkedIn post about our launch"* is enough to wake up `post-ninja`, even though you never said the word "post-ninja." Your sentence matched its description, so Claude connected the dots.
+
+**The takeaway:** the `description:` line *is* the trigger. A vague description gets missed; a clear *"Use when…"* description gets picked up at the right moment.
 
 ## See the output
 The `social-posts/` folder already has real examples made this exact way — an image and a caption for each:
